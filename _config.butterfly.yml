@@ -66,7 +66,7 @@ avatar:
   effect: false
 
 # Disable all banner images
-disable_top_img: false
+disable_top_img: true
 
 # If the banner of page not setting, it will show the default_top_img
 default_top_img: /img/IMG_1672.jpg
@@ -94,7 +94,7 @@ category_img:
 category_per_img:
 
 # The background image of footer
-footer_img: false
+footer_img: transparent
 
 # Website Background
 # Can set it to color or image url
@@ -167,8 +167,7 @@ subtitle:
   # 1 - hitokoto.cn
   # 2 - yijuzhan.com
   # 3 - jinrishici.com
-    - https://www.jinrishici.com/
-  source: true
+  source: https://www.jinrishici.com/
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
 
@@ -264,8 +263,8 @@ noticeOutdate:
 footer:
   owner:
     enable: true
-    since: 2019
-  custom_text:
+    since: 2025
+  custom_text: Hi, welcome to my <a href="https://guoyufan.fun/">blog</a>!
   # Copyright of theme and framework
   copyright: true
 
@@ -321,7 +320,7 @@ aside:
     enable: true
     # If set 0 will show all
     limit: 40
-    color: false
+    color: true
     # Order of tags, random/name/length
     orderby: random
     # Sort of order. 1, asc for ascending; -1, desc for descending
@@ -391,11 +390,11 @@ darkmode:
   # autoChangeMode: false
   autoChangeMode: false
   # Set the light mode time. The value is between 0 and 24. If not set, the default value is 6 and 18
-  start:
-  end:
+  start: 8
+  end: 22
 
 # Show scroll percent in scroll-to-top button
-rightside_scroll_percent: false
+rightside_scroll_percent: true
 
 # Don't modify the following settings unless you know how they work
 # Choose: readmode,translate,darkmode,hideAside,toc,chat,comment
@@ -655,16 +654,16 @@ artalk:
 chat:
   # Choose: chatra/tidio/crisp
   # Leave it empty if you don't need chat
-  use:
+  use: chatra
   # Chat Button [recommend]
   # It will create a button in the bottom right corner of website, and hide the origin button
-  rightside_button: false
+  rightside_button: true
   # The origin chat button is displayed when scrolling up, and the button is hidden when scrolling down
-  button_hide_show: false
+  button_hide_show: true
 
 # https://chatra.io/
 chatra:
-  id:
+  id: jkuDL3E4awQA76B7t
 
 # https://www.tidio.com/
 tidio:
@@ -849,7 +848,7 @@ canvas_ribbon:
 
 # Fluttering Ribbon
 canvas_fluttering_ribbon:
-  enable: false
+  enable: true
   mobile: false
 
 # canvas_nest
@@ -874,7 +873,7 @@ fireworks:
 
 # Mouse click effects: Heart symbol
 click_heart:
-  enable: false
+  enable: true
   mobile: false
 
 # Mouse click effects: words
@@ -914,7 +913,7 @@ series:
 # ABCJS - The ABC Music Notation Plugin
 # https://github.com/paulrosen/abcjs
 abcjs:
-  enable: false
+  enable: true
   per_page: true
 
 # Mermaid
